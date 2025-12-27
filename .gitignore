@@ -21,11 +21,11 @@ data/
 *.ubyte
 *.ubyte.gz
 
-# Model weights
-weights/*.pt
-weights/*.pth
-weights/*.pkl
-weights/*.joblib
+# Model weights (commented out - weights are tracked)
+# weights/*.pt
+# weights/*.pth
+# weights/*.pkl
+# weights/*.joblib
 
 # Outputs
 outputs/
