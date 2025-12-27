@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Data files (MNIST dataset)
+data/
+*.ubyte
+*.ubyte.gz
+
+# Model weights
+weights/*.pt
+weights/*.pth
+weights/*.pkl
+weights/*.joblib
+
+# Outputs
+outputs/
+*.jpg
+*.png
+*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
+
