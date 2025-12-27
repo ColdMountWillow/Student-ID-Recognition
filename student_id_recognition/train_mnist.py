@@ -105,7 +105,7 @@ def main():
     print(f"测试集大小: {len(test_dataset)}")
     
     # 创建模型
-    model = get_model(num_classes=10, device=device)
+    model = get_model(num_classes=10, device=device) # type: ignore
     print(f"模型参数量: {sum(p.numel() for p in model.parameters()):,}")
     
     # 损失函数和优化器

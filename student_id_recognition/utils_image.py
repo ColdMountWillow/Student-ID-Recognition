@@ -112,8 +112,8 @@ def segment_digits(binary, min_area=100, min_height=20, max_aspect_ratio=8.0):
     if len(rois) > 20:
         # 按面积排序，只保留最大的 N 个区域
         rois.sort(key=lambda r: r['roi'].shape[0] * r['roi'].shape[1], reverse=True)
-        # 根据学号长度，保留前 12 个
-        rois = rois[:12]
+        # 根据学号长度，保留前 10 个
+        rois = rois[:10]
     
     # 按 y 坐标分组，找到主要的一行数字
     if len(rois) > 0:
